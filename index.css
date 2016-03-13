@@ -81,3 +81,25 @@ html {
         padding:5px;
         display: block;
     }
+    .navstyle {
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+           overflow: hidden;
+           background-color: #C0C0C0 ;
+       }
+    .navstyle   li {
+        float: left;
+    }
+
+    .navstyle li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .navstyle li a:hover {
+        background-color: #1C8B85 ;
+    }
